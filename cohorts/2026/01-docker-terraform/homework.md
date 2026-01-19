@@ -24,6 +24,9 @@ What's the version of `pip` in the image?
 - 24.3.1
 - 24.2.1
 - 23.3.1
+<img width="651" height="66" alt="image" src="https://github.com/user-attachments/assets/15e46b53-2545-4aea-a63c-c38682b76d3b" />
+
+answer: `25.3`
 
 
 ## Question 2. Understanding Docker networking and docker-compose
@@ -69,6 +72,10 @@ volumes:
 - db:5432
 
 If multiple answers are correct, select any 
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/6bc041fc-17dd-427d-be29-bd69d5057664" />
+<img width="1365" height="767" alt="image" src="https://github.com/user-attachments/assets/ca7656dc-bc73-4742-95db-29dc2d12d1bb" />
+
+answer: `postgres:5432` & `db:5432`
 
 
 ## Prepare the Data
@@ -94,6 +101,8 @@ For the trips in November 2025 (lpep_pickup_datetime between '2025-11-01' and '2
 - 8,254
 - 8,421
 
+answer: `8,007`
+
 
 ## Question 4. Longest trip for each day
 
@@ -106,6 +115,8 @@ Use the pick up time for your calculations.
 - 2025-11-23
 - 2025-11-25
 
+answer: `2025-11-14`
+
 
 ## Question 5. Biggest pickup zone
 
@@ -115,6 +126,8 @@ Which was the pickup zone with the largest `total_amount` (sum of all trips) on 
 - East Harlem South
 - Morningside Heights
 - Forest Hills
+
+answer: `East Harlem North`
 
 
 ## Question 6. Largest tip
@@ -127,6 +140,8 @@ Note: it's `tip` , not `trip`. We need the name of the zone, not the ID.
 - Yorkville West
 - East Harlem North
 - LaGuardia Airport
+
+answer: `Yorkville West`
 
 
 ## Terraform
@@ -152,7 +167,9 @@ Answers:
 - teraform init, terraform plan -auto-apply, terraform rm
 - terraform init, terraform run -auto-approve, terraform destroy
 - terraform init, terraform apply -auto-approve, terraform destroy
-- terraform import, terraform apply -y, terraform rm
+- terraform import, terraform apply -y, terraform rmt
+
+answer: `terraform init, terraform apply -auto-approve, terraform destroy`
 
 
 ## Submitting the solutions
