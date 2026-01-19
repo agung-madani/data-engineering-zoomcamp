@@ -97,6 +97,7 @@ For the trips in November 2025 (lpep_pickup_datetime between '2025-11-01' and '2
 - 8,007
 - 8,254
 - 8,421
+<img width="415" height="169" alt="image" src="https://github.com/user-attachments/assets/43155020-8167-4111-a070-8cdfe082cd46" />
 
 answer: `8,007`
 
@@ -110,6 +111,7 @@ Use the pick up time for your calculations.
 - 2025-11-20
 - 2025-11-23
 - 2025-11-25
+<img width="548" height="225" alt="image" src="https://github.com/user-attachments/assets/dc6582da-6e5c-4d8f-832d-dd9515eb94cb" />
 
 answer: `2025-11-14`
 
@@ -121,6 +123,7 @@ Which was the pickup zone with the largest `total_amount` (sum of all trips) on 
 - East Harlem South
 - Morningside Heights
 - Forest Hills
+<img width="356" height="240" alt="image" src="https://github.com/user-attachments/assets/16a62cc7-a977-42ea-8fcc-ca0b8c1f2801" />
 
 answer: `East Harlem North`
 
@@ -134,6 +137,7 @@ Note: it's `tip` , not `trip`. We need the name of the zone, not the ID.
 - Yorkville West
 - East Harlem North
 - LaGuardia Airport
+<img width="339" height="281" alt="image" src="https://github.com/user-attachments/assets/136637c4-9313-4aa4-b182-75e6bffdcff2" />
 
 answer: `Yorkville West`
 
@@ -144,6 +148,9 @@ In this section homework we'll prepare the environment by creating resources in 
 In your VM on GCP/Laptop/GitHub Codespace install Terraform.
 Copy the files from the course repo
 [here](../../../01-docker-terraform/terraform/terraform) to your VM/Laptop/GitHub Codespace.
+<img width="382" height="133" alt="image" src="https://github.com/user-attachments/assets/cd82d771-61fa-40c0-bc1f-392f7b5414eb" />
+
+<img width="296" height="146" alt="image" src="https://github.com/user-attachments/assets/f4b41b78-8403-4972-99ce-fbef4dd7f310" />
 
 Modify the files as necessary to create a GCP Bucket and Big Query Dataset.
 
