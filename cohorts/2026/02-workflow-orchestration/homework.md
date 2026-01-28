@@ -1,4 +1,4 @@
-## Module 2 Homework
+<img width="816" height="535" alt="image" src="https://github.com/user-attachments/assets/34ed3e21-73f4-4a2e-b054-e97962a81b0d" />## Module 2 Homework
 
 ATTENTION: At the end of the submission form, you will be required to include a link to your GitHub repository or other public code-hosting site. This repository should contain your code for solving the homework. If your solution includes code that is not in file format, please include these directly in the README file of your repository.
 
@@ -27,10 +27,15 @@ As a hint, Kestra makes that process really easy:
 Complete the quiz shown below. It's a set of 6 multiple-choice questions to test your understanding of workflow orchestration, Kestra, and ETL pipelines.
 
 1) Within the execution for `Yellow` Taxi data for the year `2020` and month `12`: what is the uncompressed file size (i.e. the output file `yellow_tripdata_2020-12.csv` of the `extract` task)?
+
 - 128.3 MiB
 - 134.5 MiB
 - 364.7 MiB
 - 692.6 MiB
+
+<img width="1064" height="507" alt="image" src="https://github.com/user-attachments/assets/0677d408-a702-4631-8c2b-d91cc7518e4e" />
+
+answer: `128.3 MiB`
 
 2) What is the rendered value of the variable `file` when the inputs `taxi` is set to `green`, `year` is set to `2020`, and `month` is set to `04` during execution?
 - `{{inputs.taxi}}_tripdata_{{inputs.year}}-{{inputs.month}}.csv` 
@@ -38,11 +43,19 @@ Complete the quiz shown below. It's a set of 6 multiple-choice questions to test
 - `green_tripdata_04_2020.csv`
 - `green_tripdata_2020.csv`
 
+<img width="1029" height="53" alt="image" src="https://github.com/user-attachments/assets/37bac421-ff15-4453-badb-3c8b9f651cdf" />
+
+answer : `green_tripdata_2020-04.csv`
+
 3) How many rows are there for the `Yellow` Taxi data for all CSV files in the year 2020?
 - 13,537.299
 - 24,648,499
 - 18,324,219
 - 29,430,127
+
+
+
+answer: ``
 
 4) How many rows are there for the `Green` Taxi data for all CSV files in the year 2020?
 - 5,327,301
@@ -50,17 +63,29 @@ Complete the quiz shown below. It's a set of 6 multiple-choice questions to test
 - 1,734,051
 - 1,342,034
 
+<img width="819" height="401" alt="image" src="https://github.com/user-attachments/assets/b9d2b3a3-4959-4cb3-9142-48f798ea8e11" />
+
+answer: `1,734,051`
+
 5) How many rows are there for the `Yellow` Taxi data for the March 2021 CSV file?
 - 1,428,092
 - 706,911
 - 1,925,152
 - 2,561,031
 
+
+
+answer: ``
+
 6) How would you configure the timezone to New York in a Schedule trigger?
 - Add a `timezone` property set to `EST` in the `Schedule` trigger configuration  
 - Add a `timezone` property set to `America/New_York` in the `Schedule` trigger configuration
 - Add a `timezone` property set to `UTC-5` in the `Schedule` trigger configuration
 - Add a `location` property set to `New_York` in the `Schedule` trigger configuration  
+
+
+
+answer: ``
 
 ## Submitting the solutions
 
