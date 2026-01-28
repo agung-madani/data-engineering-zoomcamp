@@ -1,4 +1,4 @@
-<img width="816" height="535" alt="image" src="https://github.com/user-attachments/assets/34ed3e21-73f4-4a2e-b054-e97962a81b0d" />## Module 2 Homework
+## Module 2 Homework
 
 ATTENTION: At the end of the submission form, you will be required to include a link to your GitHub repository or other public code-hosting site. This repository should contain your code for solving the homework. If your solution includes code that is not in file format, please include these directly in the README file of your repository.
 
