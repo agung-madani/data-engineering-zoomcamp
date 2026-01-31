@@ -53,15 +53,77 @@ answer : `green_tripdata_2020-04.csv`
 - 18,324,219
 - 29,430,127
 
+```sql
+SELECT
+  SUM(row_count) AS total_rows
+FROM (
+  SELECT COUNT(*) AS row_count
+  FROM `zoomcamp_dataset.yellow_tripdata_2020_01`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_02`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_03`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_04`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_05`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_06`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_07`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_08`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_09`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_10`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_11`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.yellow_tripdata_2020_12`
+);
+```
 
+<img width="809" height="552" alt="image" src="https://github.com/user-attachments/assets/e6481d08-df38-4ee2-a8bf-726e98a05f6e" />
 
-answer: ``
+answer: `18,349,145`
 
 4) How many rows are there for the `Green` Taxi data for all CSV files in the year 2020?
 - 5,327,301
 - 936,199
 - 1,734,051
 - 1,342,034
+
+```sql
+SELECT
+  SUM(row_count) AS total_rows
+FROM (
+  SELECT COUNT(*) AS row_count
+  FROM `zoomcamp_dataset.green_tripdata_2020_01`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_02`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_03`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_04`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_05`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_06`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_07`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_08`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_09`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_10`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_11`
+  UNION ALL
+  SELECT COUNT(*) FROM `zoomcamp_dataset.green_tripdata_2020_12`
+);
+```
 
 <img width="819" height="401" alt="image" src="https://github.com/user-attachments/assets/b9d2b3a3-4959-4cb3-9142-48f798ea8e11" />
 
@@ -73,9 +135,9 @@ answer: `1,734,051`
 - 1,925,152
 - 2,561,031
 
+<img width="470" height="485" alt="image" src="https://github.com/user-attachments/assets/d20246b3-c7e8-4e98-9377-7f092c69b46a" />
 
-
-answer: ``
+answer: `1,925,152`
 
 6) How would you configure the timezone to New York in a Schedule trigger?
 - Add a `timezone` property set to `EST` in the `Schedule` trigger configuration  
@@ -83,9 +145,9 @@ answer: ``
 - Add a `timezone` property set to `UTC-5` in the `Schedule` trigger configuration
 - Add a `location` property set to `New_York` in the `Schedule` trigger configuration  
 
+<img width="912" height="589" alt="image" src="https://github.com/user-attachments/assets/a516d728-ea8a-4dbf-b1a2-2380611168ab" />
 
-
-answer: ``
+answer: `Add a timezone property set to America/New_York in the Schedule trigger configuration`
 
 ## Submitting the solutions
 
